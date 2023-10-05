@@ -1,0 +1,146 @@
+/* thanh menu */
+nav{
+}
+.navbar .container{
+    justify-content: flex-start;
+}
+nav li{
+    opacity: 0.5;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+.nav-link{
+    color: rgb(45, 32, 32);
+}
+.nav-item{
+    display: inline;
+}
+
+/* body */
+section {
+    padding: 2rem 9%;
+}
+.products .heading {
+    text-align: center;
+    color: #333;
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, .05);
+}
+
+.products .heading span {
+    color: var(--pink);
+}
+
+.products .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.products .box-container .box {
+    position: relative;
+    flex: 1 1 10rem;
+    border: 0.1rem solid rgba(0, 0, 0, .1);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+.products .box-container .box .discount {
+    position: absolute;
+    font-size: 2rem;
+    top: 1rem;
+    left: 1rem;
+    padding: 0.7rem 1rem;
+    color: var(--pink);
+    background: rgba(255, 51, 153, .05);
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+.products .box-container .box .image {
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.products .box-container .box .image img {
+    height: 25rem;
+}
+
+.products .box-container .box:hover .image img {
+    transform: scale(1.1);
+}
+
+.products .box-container .box .image .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+    font-size: 20px;
+    /* background-color: var(--pink); */
+    background-color: #b7b6b7ac;
+}
+
+.products .box-container .box .image .icons a {
+    padding: 1rem;
+    /* color: #fff; */
+    color: #000;
+}
+
+.products .box-container .box .image .icons a:hover {
+    opacity: 0.5;
+}
+
+.products .box-container .box .content {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* .products .box-container .box .content h4 {
+    font-size: 1.5rem;
+    color: #333;
+} */
+
+.products .box-container .box .content .price {
+    font-size: 1.75rem;
+    color: black;
+    padding-top: 1rem;
+    font-weight: bolder;
+}
+
+.products .box-container .box .content .price span {
+    font-size: 1rem;
+    color: #999;
+    font-weight: lighter;
+    text-decoration: line-through;
+    margin-left: 0.5rem;
+}
+.image img{
+    width: 300px;
+    height: 200px;
+}
+
+/* footer */
+.footer{
+    background:black;
+    color: white;
+    padding: 10px;
+}
+.address img{
+    width: 20px;
+    height: 20px;
+}
+.text-center{
+    text-align: left;
+}
+.text-center img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.list-unstyled a{
+    color: white;
+}

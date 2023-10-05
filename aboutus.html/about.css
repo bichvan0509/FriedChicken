@@ -1,0 +1,54 @@
+/* thanh menu */
+nav{
+}
+.navbar .container{
+    justify-content: flex-start;
+}
+nav li{
+    opacity: 0.5;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+.nav-link{
+    color: rgb(45, 32, 32);
+}
+.nav-item{
+    display: inline;
+}
+/* body */
+.media {
+    align-items: center;
+}
+
+.media-item {
+    display: flex;
+    margin: 5%;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/* footer */
+.footer{
+    background:black;
+    color: white;
+    padding: 10px;
+}
+.address img{
+    width: 20px;
+    height: 20px;
+}
+.text-center{
+    text-align: left;
+}
+.text-center img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.list-unstyled a{
+    color: white;
+}

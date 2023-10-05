@@ -1,0 +1,121 @@
+/* thanh menu */
+nav{
+}
+.navbar .container{
+    justify-content: flex-start;
+}
+nav li{
+    opacity: 0.5;
+}
+nav img{
+    width: 50px;
+    height: 50px;
+}
+.nav-link{
+    color: rgb(45, 32, 32);
+}
+.nav-item{
+    display: inline;
+}
+/* gioi thieu */
+.jumbotron{
+    background:black;
+}
+.media {
+    align-items: center;
+}
+
+.media-item {
+    display: flex;
+    margin: 5%;
+}
+.table{
+    background-color: rgb(240, 189, 5);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+.badge-pill{
+    background-color: rgb(151, 150, 150);
+    color: white;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.row-content{
+    padding: 20px;
+}
+.card{
+    width: 115%;
+    margin: 20px;
+}
+
+.guests{
+    margin-right: 50px;
+}
+.form-check-inline {
+    display: block;
+}
+.form-check-label{
+    margin: 10px;
+}
+.form-control{
+    width: 200px;
+    display: inline;
+    margin: 10px;
+}
+.form-row {
+    display: block;
+}
+/* footer */
+.footer{
+    background:black;
+    color: white;
+    padding: 10px;
+}
+.address img{
+    width: 20px;
+    height: 20px;
+}
+.text-center{
+    text-align: left;
+}
+.text-center img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.list-unstyled a{
+    color: white;
+}
+/* bang chuyen */
+
+.carousel-item {
+    
+    height: 300px;
+}
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+@media (max-width: 576px) {
+    .carousel-item img {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+  
